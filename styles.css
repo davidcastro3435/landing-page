@@ -3,9 +3,12 @@ body{
     background-color: #1f2937;
 }
 
+a, .hero_text {
+    color: #E5E7EB;
+}
+
 a {
     text-decoration: none;
-    color: #E5E7EB;
 }
 
 ul {
@@ -28,3 +31,33 @@ ul {
     color: #f9faf8;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.hero_title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900px;
+    margin-bottom: 1px;
+}
+
+.hero_text {
+    font-size: 18px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+.hero_button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
