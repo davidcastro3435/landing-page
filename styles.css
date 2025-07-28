@@ -36,7 +36,12 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    gap: 20px;
+    gap: 100px;
+}
+
+.hero_title, .hero_text{
+    flex-wrap: wrap;
+    max-width: 600px;
 }
 
 .hero_title {
@@ -49,8 +54,6 @@ ul {
 .hero_text {
     font-size: 18px;
     margin-top: 10px;
-    flex-wrap: wrap;
-    max-width: 600px;
 }
 
 .hero_button {
