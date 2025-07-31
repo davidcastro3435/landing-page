@@ -95,7 +95,7 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #f9faf8;
-    padding: 50px;
+    padding: 120px 50px;
     gap: 40px;
 }
 
@@ -108,7 +108,7 @@ ul {
     justify-content: center;
     background-color: #E5E7EB;
     gap: 8px;
-    padding: 50px;
+    padding: 120px 50px;
 }
 
 .quote {
@@ -131,7 +131,7 @@ ul {
 .sign-up {
     display: flex;
     background-color: #f9faf8;
-    padding: 50px;
+    padding: 120px 50px;
     justify-content: center;
 }
 
